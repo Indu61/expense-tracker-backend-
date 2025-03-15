@@ -20,7 +20,7 @@ public class CorsFilter implements Filter {
         HttpServletResponse res = (HttpServletResponse) response;
         HttpServletRequest req = (HttpServletRequest) request;
 
-        res.setHeader("Access-Control-Allow-Origin", "http://localhost:4200");
+        res.setHeader("Access-Control-Allow-Origin", "https://expense-tracker-backend-x2eo.onrender.com");
         res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
         res.setHeader("Access-Control-Allow-Headers", "Authorization, Content-Type");
         res.setHeader("Access-Control-Allow-Credentials", "true");
